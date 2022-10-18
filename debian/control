@@ -1,0 +1,30 @@
+Source: r-cran-vctrs
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev,
+               r-cran-ellipsis,
+               r-cran-glue,
+               r-cran-rlang (>= 0.4.10)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-vctrs
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-vctrs.git
+Homepage: https://cran.r-project.org/package=vctrs
+Rules-Requires-Root: no
+
+Package: r-cran-vctrs
+Architecture: any
+Depends: ${R:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: GNU R vector helpers
+ Defines new notions of prototype and size that are
+ used to provide tools for consistent and well-founded type-coercion
+ and size-recycling, and are in turn connected to ideas of type- and
+ size-stability useful for analyzing function interfaces.

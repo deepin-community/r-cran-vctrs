@@ -1,0 +1,89 @@
+r-cran-vctrs (0.3.8-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Sun, 15 Aug 2021 13:36:26 +0200
+
+r-cran-vctrs (0.3.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Standards-Version: 4.5.1 (routine-update)
+
+ -- Nilesh Patra <npatra974@gmail.com>  Sat, 26 Dec 2020 18:21:03 +0530
+
+r-cran-vctrs (0.3.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+
+ -- Dylan Aïssi <daissi@debian.org>  Sat, 21 Nov 2020 10:01:50 +0100
+
+r-cran-vctrs (0.3.4-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Mon, 21 Sep 2020 11:11:37 +0200
+
+r-cran-vctrs (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * debhelper-compat 13 (routine-update)
+
+ -- Dylan Aïssi <daissi@debian.org>  Fri, 24 Jul 2020 08:57:02 +0200
+
+r-cran-vctrs (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add r-cran-xml2 and r-cran-dplyr to test-deps (Closes: #961571)
+
+ -- Dylan Aïssi <daissi@debian.org>  Tue, 26 May 2020 18:43:31 +0200
+
+r-cran-vctrs (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Dylan Aïssi <daissi@debian.org>  Sat, 23 May 2020 10:29:06 +0200
+
+r-cran-vctrs (0.2.4-1) unstable; urgency=medium
+
+  * New upstream version
+  * Add salsa-ci file (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Thu, 12 Mar 2020 11:22:37 +0100
+
+r-cran-vctrs (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 24 Feb 2020 06:17:01 +0100
+
+r-cran-vctrs (0.2.2-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.0 (routine-update)
+  * dh-update-R to update Build-Depends (routine-update)
+  * Set upstream metadata fields: Archive, Bug-Database, Bug-Submit,
+    Repository, Repository-Browse.
+
+ -- Andreas Tille <tille@debian.org>  Thu, 30 Jan 2020 11:40:05 +0100
+
+r-cran-vctrs (0.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * debhelper-compat 12
+  * Standards-Version: 4.4.1
+  * Trim trailing whitespace.
+
+ -- Dylan Aïssi <daissi@debian.org>  Fri, 03 Jan 2020 14:49:53 +0100
+
+r-cran-vctrs (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (closes: #931835)
+
+ -- Andreas Tille <tille@debian.org>  Thu, 11 Jul 2019 09:09:44 +0200
